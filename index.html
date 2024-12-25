@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables Challenge</title>
+</head>
+<body>
+    <h1>Employee Information</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th colspan="3">Employee ID andName</th>
+                <th>Position</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Joining Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3">101 - John Doe</td>
+                <td>Manager</td>
+                <td>Sales</td>
+                <td>$65,000</td>
+                <td>2022-01-15</td>
+            </tr>
+            <tr>
+                <td colspan="3">102 - Jane Smith</td>
+                <td>Analyst</td>
+                <td>Finance</td>
+                <td>$50,000</td>
+                <td>2022-03-10</td>
+            </tr>
+            <tr>
+                <td colspan="3" rowspan="2">103 -  Michael Johnson</td>
+                <td rowspan="2">Developer</td>
+                <td>IT</td>
+                <td>$55,000</td>
+                <td>2022-02-05</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Total Employees</td>
+                <td colspan="2">3</td>
+                
+            </tr>
+            <tr>
+                <td colspan="5">Average Salary</td>
+                <td colspan="1">$56,666.67</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
